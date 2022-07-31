@@ -1,0 +1,113 @@
+:root {
+	--basic-color: rgb(51, 145, 161);
+	--secondary-color: #d6bbd8;
+	--third-color: #c77dcc;
+}
+
+body {
+	margin-top: 70px;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+	opacity: 0.75;
+}
+
+.button {
+	text-decoration: none;
+	border-radius: 7px;
+	padding: 15px 10px;
+	box-shadow: 4px 2px 2px grey;
+	width: 110px;
+	text-align: center;
+}
+
+.button:hover {
+	font-weight: 500;
+}
+.contact-btn {
+	border: 1px solid var(--basic-color);
+	color: var(--basic-color);
+	margin-left: 10px;
+}
+
+.about-btn {
+	border: 1px solid var(--basic-color);
+	color: white;
+	background-color: var(--basic-color);
+
+	margin-right: 10px;
+}
+
+.contact-btn:hover {
+	color: var(--basic-color);
+}
+.about-btn:hover {
+	color: white;
+}
+
+.navigation-links {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.homeback-link {
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+}
+
+.about-paragraphs {
+	display: flex;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.about-paragraphs p {
+	background-color: var(--secondary-color);
+	margin: 0px 6px;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.mail-link {
+	display: block;
+	text-align: center;
+}
+
+.homeback-link,
+.mail-link {
+	text-decoration: none;
+	color: var(--third-color);
+	font-weight: bold;
+}
+
+.homeback-link:hover,
+.mail-link:hover {
+	font-size: 18px;
+	color: black;
+}
+
+@media (max-width: 900px) {
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
